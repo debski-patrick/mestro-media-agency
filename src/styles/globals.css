@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: rgb(127,21,23);
+}
+
+html, body {
+  scroll-behavior: smooth !important;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-color: var(--primary);
+  color: white;
+}
+
+.bg-primary {
+  background-color: var(--primary);
+}
+
+.text-primary {
+  color: var(--primary);
+}
+
+.button {
+  width: auto;
+  padding: 20px;
+  margin-top: 24px;
+  border: 2px solid #F66E55;
+  border-radius: 99px;
+  background-image: linear-gradient(to right, #653838, #2F2D61);
+}
+
+.line-gradient {
+  background: linear-gradient(to right, transparent, white);
+}
+
+.card-gradient {
+  background: linear-gradient(135deg, #942421, #781E35);
+}
